@@ -54,24 +54,50 @@ for z in range(0, 1000):
         n = z + n
 print (n)
 
+"""""
+better,cleaner
+"""""
 
 n = 0
 x = 1
 y = 1
-for z = x + y:
+while (y <= 4000000):
+    z = x + y
     x = y
     y = z
-    if (((z % 2) == 0) and (z < 4000000)):
+    if (((z % 2) == 0) and (z <= 4000000)):
         n = z + n
 print (n)
 
-n = 0
-x = 1
-y = 1
-for z = x + y:
-    z < 4000000
-    x = y
-    y = z
-if (((z % 2) == 0) and (z < 4000000)):
-        n = z + n
-print (n)
+
+
+"""
+problem 3
+
+The prime factors of 13195 are 5, 7, 13 and 29.
+
+What is the largest prime factor of the number 600851475143 ?
+
+"""
+
+
+x = range(1, 600851475143)
+ans = (600851475143 % x) or (x % 1)
+
+x * 5 = 13195
+x =
+
+
+((x % 2) is not == 0)
+x = ((x / x) or (x / 1) )
+
+(x * y) = (13195)
+for x in range(1, 13195):
+    print (y)
+
+
+
+
+
+
+600851475143 % a = b
