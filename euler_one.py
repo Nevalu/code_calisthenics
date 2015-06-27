@@ -79,25 +79,55 @@ The prime factors of 13195 are 5, 7, 13 and 29.
 What is the largest prime factor of the number 600851475143 ?
 
 """
+def is_prime(x):
 
 
-x = range(1, 600851475143)
-ans = (600851475143 % x) or (x % 1)
-
-x * 5 = 13195
-x =
 
 
-((x % 2) is not == 0)
-x = ((x / x) or (x / 1) )
+def ans(x):
 
-(x * y) = (13195)
+
 for x in range(1, 13195):
-    print (y)
+    for y in range(1, x):
+        ((x * y) == 600851475143) and not ((x % 2) == 0)
+        if ((600851475143 % x) == 0) and ((600851475143) % y == 0):
+                print(x, y)
+
+x != y
+(x * y) == 138717511
+print (x, y)
+
+138717511
+
+x != y
+for x in range(1, 13195):
+    for y in range(x):
+        ((x * y) == 600851475143)
+        print (x)
+
+
+""""
+Problem 4
+A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99.
+
+Find the largest palindrome made from the product of two 3-digit numbers.
+"""""
 
 
 
 
+z = 0
 
+for z in range(888, 1000):
+    for x in range(888, z):
+        znew = (x * z)
+        z1 = str(znew)
+        z1 = str(znew)
+        z2 = list(z1)
+        if (z2) == (z2[::-1]):
+            print(max(z2))
 
-600851475143 % a = b
+while z = (101):
+    if (z) = (z):
+        print(z)
+
